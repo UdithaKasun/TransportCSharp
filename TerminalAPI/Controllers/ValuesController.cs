@@ -38,7 +38,7 @@ namespace TerminalAPI.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]TravelCard card)
+        public void saveReservation([FromBody]TravelCard card)
         {
             
         }
